@@ -1,0 +1,27 @@
+{
+  "name": "react-native-qrcode-kit",
+  "version": "1.0.0",
+  "description": "A tool kit for react native qrcode,include qrcode scanner/image reader and qrcode generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obooman/react-native-qrcode-kit.git"
+  },
+  "keywords": [
+    "react-native",
+    "rn",
+    "qrcode",
+    "scanner",
+    "reader",
+    "generator"
+  ],
+  "author": "oboo chin <cheng.12@live.cn> (github.com/obooman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Obooman/react-native-qrcode-kit/issues"
+  },
+  "homepage": "https://github.com/Obooman/react-native-qrcode-kit#readme"
+}
