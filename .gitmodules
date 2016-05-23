@@ -1,0 +1,3 @@
+[submodule "qrcode"]
+	path = qrcode-generator
+	url = https://github.com/Obooman/qrcode-generator.git
