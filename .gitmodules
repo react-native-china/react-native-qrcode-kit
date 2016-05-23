@@ -1,3 +1,6 @@
 [submodule "qrcode"]
 	path = qrcode-generator
 	url = https://github.com/Obooman/qrcode-generator.git
+[submodule "jsqrcode"]
+	path = jsqrcode
+	url = https://github.com/LazarSoft/jsqrcode.git
