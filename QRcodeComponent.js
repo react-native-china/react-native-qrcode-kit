@@ -1,26 +1,26 @@
 'use strict';
 
-const React = require('react-native');
-
-const {
+import React,{
 	View,
 	Image,
 	Text,
-} = React;
+	Component
+} from 'react-native';
 
-const qrcode = require('../vendor/qrcode');
+import qrcode from './qrcode-generator/qrcode';
 
-const QRcode = React.createClass({
-	render:function(){
+class QRcode extends Component({
+	render(){
 		return (
 			<View>
 				{
-					this.getQRcodeImage()
+					this.getQRcodeImage.bind(this)()
 				}
 			</View>
 		)
-	},
-	getQRcodeImage:function(){
+	}
+
+	getQRcodeImage(){
 
 		const { target } = this.props;
 
@@ -43,4 +43,4 @@ const QRcode = React.createClass({
 	}
 })
 
-module.exports = QRcode;
+export default QRcode;
