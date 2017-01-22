@@ -1,15 +1,13 @@
-'use strict';
-
-import React,{
+import React , { Component } from 'react';
+import {
 	View,
 	Image,
 	Text,
-	Component
 } from 'react-native';
 
 import qrcode from './qrcode-generator/qrcode';
 
-class QRcode extends Component({
+class QRcode extends Component{
 	render(){
 		return (
 			<View>
@@ -41,6 +39,6 @@ class QRcode extends Component({
 			</View>
 		)
 	}
-})
+}
 
 export default QRcode;
