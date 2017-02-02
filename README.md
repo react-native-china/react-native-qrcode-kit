@@ -2,6 +2,10 @@
 
 **➡️  STILL UNDER DEVELOPMENT**
 
-QRcode tool for react-native,cover generate ,read from image(with react native cameraRoll component),scan with camera.
+QRcode tools for react-native.
 
 Use QRCodeScanner components with react-native-camera.
+
+- [x] scan with camera
+- [x] generate qrcode
+- [ ] scan from cameraRoll
